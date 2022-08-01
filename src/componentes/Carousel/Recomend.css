@@ -1,0 +1,10 @@
+.recomend_carousel{
+    display: flex;
+    flex-direction: column;
+}
+.recomend_card{
+    max-height: 200px;
+}
+.recomend_card_img{
+    width: 50%;
+}

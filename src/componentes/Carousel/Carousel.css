@@ -1,0 +1,27 @@
+.hful{
+    height: 200px;
+}
+@media only screen and (min-width: 900px) {
+    .hful{
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .hful{
+        height: 100%;
+    }
+}
+
+/* 
+movil 576
+tablet 768
+laptop 992
+pc 1200
+
+material
+xs = 0
+sm = 600
+md = 900
+lg = 1200
+xl = 1536
+*/

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+main {
+    margin: 0 50px;
+}
+.carousel {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: cadetblue;
+}
+.body {
+    display: flex;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: cadetblue;
+}
+@media only screen and (max-width: 768px) {
+    .checkbtn {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        line-height: 30px;
+        color: white;
+    }
+    nav a:hover {
+        background: none;
+        color: red;
+    }
+    #check:checked ~ nav {
+        left:0;
+    }
+}
+.toolbar {
+  display: flex;
+  justify-content: right;
+  background-color: #fff;
+  height: 50px;
+  margin: 20px;
+  padding-right: 20px;
+}
+.toolbar a {
+  margin: 15px 5px;
+}
+.toolbar div {
+  margin: 15px 10px;
+  cursor: pointer;
+}
+.toolbar div > * {
+  pointer-events: none;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+@media only screen and (max-width:660px){
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  } 
+}
+.card-container.list {
+  grid-template-columns: 1fr;
+}
+.card {
+  width: calc(100% - 20px);
+  display: flex;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+.card-header img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+h4, h5 {
+    margin: 0;
+}
+.card-title {
+    margin: 5px 0;
+}
+.tag {
+    width: 20px;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    padding: 2px 5px;
+    background-color: red;
+    text-align: center;
+}
+.card-body p {
+	font-size: 13px;
+	color: gray;
+	margin: 10px 0;
+}
+.price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    border: 5px;
+}
+.card-footer {
+    padding: 0 20px;
+    text-align: center;
+}
+.compare {
+    margin: 10px auto;
+}
+.compare a {
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+}
+.cart-btn {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.section_title{
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,103 @@
+.container-footer{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.column-footer{
+    margin: 1rem;
+}
+.Redes{
+    display: flex;
+    justify-content: space-around;
+}
+/*footer{
+    width: 100%;
+    padding: 10px 0px;
+    background-color:white;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.column-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.column-footer h2{
+    margin-top: 30px;
+    color: black;
+    font-size: small;
+}
+
+.column-footer .Redes{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.column-footer a{
+    margin-top: 10px;
+    color: rgb(20, 19, 19);
+    font-size: small;
+
+}
+
+.column-footer a:hover{
+    opacity: 0.8;
+}
+
+.column-footer .text{
+    max-width: 150px;
+    margin-top: 20px;
+    color: black;
+}
+
+.foot{
+    background: red ;
+    width: 100%;
+    height: 50px;
+}
+
+.foot img{
+    position: absolute;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(17, 16, 16);
+}
+
+#email{
+    border-radius: 3px;
+    height: 30px;
+    width: 80%;
+    margin-top: 10px;
+}
+
+button{
+    background-color: red;
+    border-color: red;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: larger;
+}
+
+.terminos{
+    margin-top: 10px;
+    font-size: x-small;
+}
+
+.terminos a{
+    text-decoration:underline;
+    color: rgb(16, 97, 247);
+}*/
