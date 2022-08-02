@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/proyecto-hiraoka-react/static/css/main.9460772d.css",
+    "main.js": "/proyecto-hiraoka-react/static/js/main.74b7c68b.js",
+    "static/js/787.b978bd17.chunk.js": "/proyecto-hiraoka-react/static/js/787.b978bd17.chunk.js",
+    "static/media/carousel3.webp": "/proyecto-hiraoka-react/static/media/carousel3.b5125ed6ed9b4d6fbae5.webp",
+    "static/media/carousel5.webp": "/proyecto-hiraoka-react/static/media/carousel5.85056bb017e0210ce668.webp",
+    "static/media/carousel9.webp": "/proyecto-hiraoka-react/static/media/carousel9.fad81e0a13058c218533.webp",
+    "static/media/carousel2.webp": "/proyecto-hiraoka-react/static/media/carousel2.68ea42bd59038f4a9fa0.webp",
+    "static/media/carousel6.webp": "/proyecto-hiraoka-react/static/media/carousel6.9a0e3a7ae5f61eddb277.webp",
+    "static/media/carousel7.webp": "/proyecto-hiraoka-react/static/media/carousel7.3899d9136c0258acf1aa.webp",
+    "static/media/carousel8.webp": "/proyecto-hiraoka-react/static/media/carousel8.814b41f2e446a4c77b1e.webp",
+    "static/media/carousel1.webp": "/proyecto-hiraoka-react/static/media/carousel1.d9d5167803628a90f6e4.webp",
+    "static/media/carousel4.webp": "/proyecto-hiraoka-react/static/media/carousel4.f750d6d773f7aa29864d.webp",
+    "static/media/refri1.webp": "/proyecto-hiraoka-react/static/media/refri1.d6559885e54a4374a1fe.webp",
+    "index.html": "/proyecto-hiraoka-react/index.html",
+    "main.9460772d.css.map": "/proyecto-hiraoka-react/static/css/main.9460772d.css.map",
+    "main.74b7c68b.js.map": "/proyecto-hiraoka-react/static/js/main.74b7c68b.js.map",
+    "787.b978bd17.chunk.js.map": "/proyecto-hiraoka-react/static/js/787.b978bd17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9460772d.css",
+    "static/js/main.74b7c68b.js"
+  ]
+}
